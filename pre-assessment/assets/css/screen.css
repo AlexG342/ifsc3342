@@ -71,3 +71,8 @@ body {
 	margin-right: 20px;
 	margin-left: 20px;
 }
+
+.alert{
+	background-color:cyan;
+	color:rgb(228, 125, 30);
+}
