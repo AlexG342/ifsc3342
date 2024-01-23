@@ -7,6 +7,7 @@ body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	background-color: #171717;
 	background-image:url(../img/bg-tile.jpg);
+	background-repeat:repeat-x;
 	font-size: 16px;
 	line-height: 1.5em;
 }
@@ -73,8 +74,8 @@ body {
 }
 
 .alert{
-	background-color:cyan;
-	color:rgb(228, 125, 30);
+	background-color:rgb(43, 119, 119);
+	color:rgb(245, 248, 66);
 }
 
 h2{
