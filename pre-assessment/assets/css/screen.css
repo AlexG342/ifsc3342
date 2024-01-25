@@ -23,6 +23,12 @@ body {
 #header {
 }
 #header h1 a {
+	background-image: url(../img/assessment-1.jpg);
+	display:block;
+	height:140px;
+	text-indent:100%;
+	white-space: nowrap;
+	overflow:hidden;
 }
 #nav {
 	background-color: #000;
@@ -92,4 +98,11 @@ h4{
 
 #link:hover{
 	background-color:rgb(192, 192, 228);
+}
+
+.meme{
+	float:right;
+	border: 2px solid white;
+	padding:5px;
+	margin: 20px 0 20px;
 }
