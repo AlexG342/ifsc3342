@@ -1,4 +1,7 @@
-* {
+/* 
+Controls the margin and padding based on the unit you give it
+*/
+{
 	margin: 0px;
 	padding: 0px;
 }
