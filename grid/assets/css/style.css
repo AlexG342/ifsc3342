@@ -1,48 +1,28 @@
-/* apply a natural box layout model to all elements, but allowing components to change */
-html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  
-  .cf:before,
-  .cf:after {
-      content: " "; /* 1 */
-      display: table; /* 2 */
-  }
-  
-  .cf:after {
-      clear: both;
-  }
-  
-  main{
-    margin: 20px auto;
-    border: 1px solid #000;
-  }
-  
-  header.primary, footer.primary{
-    width:95.8333%;
-    background: rgba(0, 0, 0, 0.4);
-    margin:2.0833%;
-    padding:20px;
-    float:left;
-  }
-  
-  #blog{
-    background: rgba(0, 0, 0, 0.6);
-    width: 66.4583%;
-    margin-left:20px;
-    padding:20px;
-    float:left;
-  }
-  
-  aside{
-    background: rgba(0, 0, 0, 0.3);
-    width: 27.2916%;
-    margin-left:20px;
-    padding:20px;
-    float:left;
-  }
+.container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  max-width:83.333%;
+  margin: 20px auto;
+}
+
+header, footer{
+  background-color:#003049;
+  padding:25px;
+}
+
+#content{
+  background-color:#D62828;
+  padding:25px;
+}
+
+#aside{
+  background-color:#F77F00;
+  padding:25px;
+}
+
+.post {
+  background:#ffffff;
+  padding:25px;
+}
+
