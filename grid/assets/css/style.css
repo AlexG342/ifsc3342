@@ -1,28 +1,33 @@
 .container{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 5.68%;
-  max-width:83.333%;
-  margin: 20px auto;
+ margin:20px auto;
+ border: 1px solid #000;
 }
 
 header, footer{
+  width:100%;
   background-color:#003049;
+  margin:20px;
   padding:28px;
+  box-sizing:border-box;
 }
 
 #content{
   background-color:#D62828;
+  width:66%;
   padding:28px;
+  box-sizing:border-box;
 }
 
 #aside{
+  width:22%;
   background-color:#F77F00;
   padding:28px;
+  box-sizing:border-box;
 }
 
 .post {
+  width:100%;
   background:#ffffff;
   padding:28px;
+  box-sizing:border-box;
 }
-
