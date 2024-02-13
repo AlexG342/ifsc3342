@@ -1,28 +1,28 @@
 .container{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 25px;
+  grid-gap: 28px;
   max-width:83.333%;
   margin: 20px auto;
 }
 
 header, footer{
   background-color:#003049;
-  padding:25px;
+  padding:28px;
 }
 
 #content{
   background-color:#D62828;
-  padding:25px;
+  padding:28px;
 }
 
 #aside{
   background-color:#F77F00;
-  padding:25px;
+  padding:28px;
 }
 
 .post {
   background:#ffffff;
-  padding:25px;
+  padding:28px;
 }
 
