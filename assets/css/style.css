@@ -1,0 +1,20 @@
+header{
+    background-color: rgb(131, 236, 236);
+}
+
+@media (max-width: 768px) {
+    h1 {
+      color: blue;
+    }
+    
+  }
+
+  @media (min-width: 992px) {
+    h1 {
+      color: red;
+    }
+    #content li a {
+      color: purple;
+    }
+  }
+
