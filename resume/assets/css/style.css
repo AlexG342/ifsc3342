@@ -1,0 +1,40 @@
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header.container{
+    background-color:#0f2499;
+    color:#fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav.primary{
+    margin-top:20px
+}
+
+nav.primary ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+nav.primary ul li {
+    display:inline;
+    margin-right:20px;
+}
+
+nav.primary ul li a {
+    color:#fff;
+    text-decoration:none;
+}
+
+main.container{
+    padding:20px 0;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-gap:20px;
+}
