@@ -1,4 +1,4 @@
-/* CSS Custom Properties */
+
 :root {
     --main-bg-color: #081629;
     --primary-type-color: #222222;
@@ -8,7 +8,7 @@
     --separator-color: #000000;
 }
 
-/* Reset */
+
 html {
     box-sizing: border-box;
     font-size: 16px;
