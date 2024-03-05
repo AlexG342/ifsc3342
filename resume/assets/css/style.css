@@ -1,45 +1,46 @@
 /* CSS Custom Properties */
 :root {
-    --main-bg-color: #f5f5f5; /* Light Gray */
-    --primary-type-color: #222222; /* Dark Gray */
-    --accent-color-1: #008080; /* Teal */
-    --primary-bg-color: #41B3A3; /* Light Teal */
-    --secondary-bg-color: #f5f5f5; /* Light Gray */
-  }
-  
-  /* Reset */
-  html {
+    --main-bg-color: #081629;
+    --primary-type-color: #222222;
+    --accent-color-1: #008080;
+    --primary-bg-color: #41B3A3; 
+    --secondary-bg-color: #ffffff;
+    --separator-color: #000000;
+}
+
+/* Reset */
+html {
     box-sizing: border-box;
     font-size: 16px;
-  }
-  
-  *, *:before, *:after {
+}
+
+*, *:before, *:after {
     box-sizing: inherit;
-  }
-  
-  body {
+}
+
+body {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     color: var(--primary-type-color);
     background-color: var(--main-bg-color);
     margin: 0;
-  }
-  
-  img {
+}
+
+img {
     max-width: 100%;
     height: auto;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 100%;
     width: 90%;
     margin: 0 auto;
     padding: 0 20px;
     background-color: var(--secondary-bg-color);
-  }
-  
-  .visuallyhidden {
+}
+
+.visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -49,47 +50,48 @@
     position: absolute;
     width: 1px;
     white-space: nowrap;
-  }
-  
-  a:link, a:visited {
+}
+
+a:link, a:visited {
     color: var(--primary-type-color);
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  .banner {
+}
+
+.banner {
     background-color: var(--primary-bg-color);
     color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
-  
-  .banner h1 {
+}
+
+.banner h1 {
     margin: 0;
-  }
-  
-  nav {
+}
+
+nav {
     padding: 10px 0;
     text-align: center;
-  }
-  
-  nav ul {
+    border-bottom: 1px solid var(--separator-color);
+}
+
+nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  
-  nav li {
+}
+
+nav li {
     margin: 10px;
-  }
-  
-  nav a {
+}
+
+nav a {
     padding: 8px 16px;
     border: 1px solid var(--accent-color-1);
     text-align: center;
@@ -97,46 +99,47 @@
     color: #fff;
     background: var(--accent-color-1);
     transition: background-color 0.5s ease;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     background: rgba(0, 0, 0, 0.95);
-  }
-  
-  main {
+}
+
+main {
     text-align: center;
     padding: 20px 0;
-  }
-  
-  main h1 {
+    border-bottom: 1px solid var(--separator-color);
+}
+
+main h1 {
     font-weight: 400;
     font-variant: small-caps;
     margin-bottom: 20px;
-  }
-  
-  dl {
+}
+
+dl {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-  }
-  
-  dt {
+}
+
+dt {
     font-weight: 800;
-  }
-  
-  dd {
+}
+
+dd {
     margin: 0;
-  }
-  
-  .related-links {
+}
+
+.related-links {
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 0;
     gap: 20px;
-  }
-  
-  .related-links a {
+}
+
+.related-links a {
     padding: 8px 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -144,47 +147,48 @@
     background: var(--accent-color-1);
     border: 1px solid var(--accent-color-1);
     transition: background-color 0.5s ease;
-  }
-  
-  .related-links a:hover {
+}
+
+.related-links a:hover {
     background: rgba(0, 0, 0, 0.95);
-  }
-  
-  #skills ul {
+}
+
+#skills ul {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .skill {
+}
+
+.skill {
     background-color: var(--secondary-bg-color);
     color: var(--primary-type-color);
     padding: 5px 10px;
     margin: 5px;
-  }
-  
-  .job, .certificate {
+}
+
+.job,
+.certificate {
     padding-bottom: 20px;
-  }
-  
-  .job *[itemprop="jobTitle"],
-  .job *[itemprop="name"],
-  .job *[itemprop="url"],
-  .job *[itemprop="addressLocality"],
-  .certificate *[itemprop="name"] {
+    border-bottom: 1px solid var(--separator-color);
+}
+
+.job *[itemprop="jobTitle"],
+.job *[itemprop="name"],
+.job *[itemprop="url"],
+.job *[itemprop="addressLocality"],
+.certificate *[itemprop="name"] {
     display: block;
-  }
-  
-  .job h3 {
+}
+
+.job h3 {
     margin-top: 20px;
-  }
-  
-  footer {
+}
+
+footer {
     text-align: center;
     padding: 20px 0;
-    background-color: var(--secondary-bg-color);
+    background-color: #000000;
     color: #008080;
-  }
-  
+}
