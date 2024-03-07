@@ -46,10 +46,10 @@
     padding: 0;
     position: absolute;
     width: 1px;
-    white-space: nowrap; /* 1 */
+    white-space: nowrap;
   }
   
-  /* Global Styles */
+
   a:link, a:visited {
     color: var(--primary-type-color);
     text-decoration: none;
@@ -233,7 +233,7 @@
     }
   }
   
-  /* Edge Case Tweaks */
+  
   @media only screen and (max-width: 435px) {
     .related-links {
       flex-direction: column;
