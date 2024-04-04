@@ -1,0 +1,57 @@
+
+.navbar-brand img {
+    height: 100px;
+  }
+
+  .big-image {
+    width: 100%;
+    max-height: 500px;
+  }
+
+
+  .mt-5 h2 {
+    font-size: 50px;
+    text-align:center;
+  }
+  .mt-5 p {
+    font-size: 25px;
+  }
+
+  .box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    color:black;
+    text-align:center;
+  }
+
+  .box1{
+    background-color: #547D8C;
+  }
+
+  .box2{
+    background-color: #A7584B;
+  }
+
+  .box img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .banner {
+    width: 100%;
+    height:auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .image-under-banner {
+    text-align: center;
+    margin-top: 20px;
+}
