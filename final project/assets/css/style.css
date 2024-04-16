@@ -1,0 +1,138 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+  }
+
+  .navbar-brand img {
+    height: 100px;
+  }
+
+  .navbar-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-menu li {
+    margin-left: 10px;
+  }
+
+  .navbar-menu li:first-child {
+    margin-left: 0;
+  }
+
+  .navbar-menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+
+  .navbar-menu li a:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+
+  .big-image {
+    width: 100%;
+    max-height: 500px;
+  }
+
+  .mt-5 h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .mt-5 p {
+    font-size: 25px;
+  }
+
+  .box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+  }
+
+  .box1 {
+    background-color: #547d8c;
+  }
+
+  .box2 {
+    background-color: #a7584b;
+  }
+
+  .box img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .banner {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .image-under-banner {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  .card {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .card h3 {
+    margin-top: 0;
+  }
+
+  .card p {
+    margin-bottom: 0;
+  }
+
+  .card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
