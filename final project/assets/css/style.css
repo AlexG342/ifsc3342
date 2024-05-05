@@ -98,40 +98,40 @@
     justify-content: center;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px; 
     border: 2px solid #ccc;
     border-radius: 10px;
   }
-
+  
   .gallery img {
     max-width: 100%;
     height: auto;
     cursor: pointer;
   }
-
+  
   .card-container {
     display: flex;
     justify-content: space-between;
     margin: 20px;
   }
-
+  
   .card {
     flex: 0 0 calc(33.33% - 20px);
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align:center;
   }
-
+  
   .card h3 {
     margin-top: 0;
   }
-
+  
   .card p {
     margin-bottom: 0;
   }
-
+  
   .card img {
     max-width: 100%;
     border-radius: 8px;
