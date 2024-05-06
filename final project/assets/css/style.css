@@ -100,7 +100,6 @@ nav ul li a {
 }
 
 .card {
-  width: calc(33.33% - 20px);
   margin: 10px;
   text-align: center;
 }
@@ -108,10 +107,6 @@ nav ul li a {
 .card img {
   max-width: 100%;
   height: auto;
-}
-
-.card p {
-  margin-top: 10px;
 }
 
 
