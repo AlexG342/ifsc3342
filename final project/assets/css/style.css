@@ -91,6 +91,29 @@ nav ul li a {
   cursor: pointer;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
 
 @media (max-width: 768px) {
   .banner {
