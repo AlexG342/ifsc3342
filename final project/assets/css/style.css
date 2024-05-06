@@ -13,8 +13,6 @@ header {
   align-items: center;
 }
 
-
-
 .logo img {
   height: 50px;
 }
@@ -73,6 +71,24 @@ nav ul li a {
 
 .box:nth-child(2) {
   background-color: #A7584B;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px; 
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
 }
 
 
